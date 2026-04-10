@@ -80,7 +80,7 @@ const Admissions = () => {
         </div>
       </section>
 
-      {/* Fees */}
+      {/* Fees }
       <section id="fees" className="section-padding bg-background">
         <div className="section-container">
           <AnimatedSection className="text-center mb-8">
@@ -112,7 +112,7 @@ const Admissions = () => {
             </div>
           </AnimatedSection>
         </div>
-      </section>
+      </section>*/}
 
       {/* Inquiry Form */}
       <section className="section-padding bg-muted">
