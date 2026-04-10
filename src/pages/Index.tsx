@@ -222,7 +222,7 @@ const Index = () => {
               <img src={aboutSchool} alt="About Rishi Vidyalaya" className="rounded-2xl shadow-lg w-full img-hover" loading="lazy" width={800} height={600} />
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
-              <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-2">
+              <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-2 text-center">
                 About <span className="text-primary">Rishi Vidyalaya</span>
               </h2>
               <p className="text-secondary font-heading font-semibold text-base mb-1">
@@ -231,7 +231,7 @@ const Index = () => {
               <p className="text-secondary font-heading text-sm mb-4">
                 విద్యా నైపుణ్యం & విలువల సమన్వయం
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-6">
+              <p className="text-muted-foreground leading-relaxed mb-6 text-justify">
                 Strong foundation for your child's future through knowledge and values. Rishi Vidyalaya IIT–NEET Foundation School in Dharmavaram is committed to nurturing future leaders with a perfect blend of academic excellence, discipline, and modern infrastructure.
               </p>
               <div className="grid sm:grid-cols-2 gap-4">
@@ -240,10 +240,10 @@ const Index = () => {
                     <Target className="text-secondary" size={18} />
                   </div>
                   <h3 className="font-heading font-semibold text-foreground mb-2">Our Vision</h3>
-                  <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>• Future-ready students</li>
-                    <li>• Global competence</li>
-                    <li>• Innovation-driven learning</li>
+                  <ul className="list-disc list-inside text-sm text-muted-foreground space-y-2 pl-2">
+                    <li>Future-ready students</li>
+                    <li>Global competence</li>
+                    <li>Innovation-driven learning</li>
                   </ul>
                 </div>
                 <div className="bg-card rounded-2xl p-5 shadow-sm border border-secondary/20 card-hover">
@@ -251,11 +251,11 @@ const Index = () => {
                     <Compass className="text-primary" size={18} />
                   </div>
                   <h3 className="font-heading font-semibold text-foreground mb-2">Our Mission</h3>
-                  <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>• Quality education</li>
-                    <li>• Discipline & values</li>
-                    <li>• Skill development</li>
-                    <li>• Innovation culture</li>
+                  <ul className="list-disc list-inside text-sm text-muted-foreground space-y-2 pl-2">
+                    <li>Quality education</li>
+                    <li>Discipline & values</li>
+                    <li>Skill development</li>
+                    <li>Innovation culture</li>
                   </ul>
                 </div>
               </div>

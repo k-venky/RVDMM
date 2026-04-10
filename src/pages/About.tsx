@@ -28,10 +28,10 @@ const About = () => (
             <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-4">
               Our <span className="text-primary">Story</span>
             </h2>
-            <p className="text-muted-foreground leading-relaxed mb-4">
+            <p className="text-muted-foreground leading-relaxed mb-4 text-justify">
               Rishi Vidyalaya IIT–NEET Foundation School was established in Dharmavaram with a singular vision — to provide world-class education rooted in Indian values. As the first AC campus in Dharmavaram, we set new benchmarks in educational infrastructure.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-4">
+            <p className="text-muted-foreground leading-relaxed mb-4 text-justify">
               Our ISO-certified institution combines the best of modern pedagogy with time-tested teaching methods. With 500+ admissions in our very first year, we have already earned the trust of hundreds of families.
             </p>
             <div className="flex gap-4 flex-wrap">
@@ -60,7 +60,7 @@ const About = () => (
                 <Eye className="text-secondary" size={24} />
               </div>
               <h3 className="font-heading font-bold text-xl text-foreground mb-3">Our Vision</h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed text-justify">
                 To create future-ready students who excel globally while staying rooted in Indian values. We envision a generation of thinkers, innovators, and leaders who transform society.
               </p>
             </div>
@@ -117,7 +117,7 @@ const About = () => (
         <AnimatedSection>
           <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-6">Principal's Message</h2>
           <div className="bg-card rounded-xl p-8 shadow-sm border border-border">
-            <p className="text-muted-foreground leading-relaxed italic mb-4">
+            <p className="text-muted-foreground leading-relaxed italic mb-4 text-justify">
               "At Rishi Vidyalaya, we believe every child is unique and capable of greatness. Our P5 Model ensures that students don't just learn — they discover their purpose, ignite their passion, achieve proficiency, engage in project-based learning, and strive for perfection. We are committed to building not just academically excellent students, but responsible citizens of tomorrow."
             </p>
             <p className="font-heading font-semibold text-foreground">— The Principal</p>
