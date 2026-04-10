@@ -28,7 +28,7 @@ const navItems = [
     sub: [
       { label: "Process", path: "/admissions#process" },
       { label: "Eligibility", path: "/admissions#eligibility" },
-      { label: "Fees", path: "/admissions#fees" },
+      //{ label: "Fees", path: "/admissions#fees" },
     ],
   },
   {
