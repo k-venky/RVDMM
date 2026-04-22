@@ -55,14 +55,14 @@ const Navbar = () => {
       <div className="section-container flex items-center justify-between h-16 md:h-20 pl-0 pr-8">
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="Rishi Vidyalaya Logo" className="h-10 md:h-14 w-auto" />
-          <div className="hidden sm:block">
+          {/*<div className="hidden sm:block">
             <p className="font-heading font-bold text-sm md:text-base text-primary leading-tight">
               Rishi Vidyalaya
             </p>
             <p className="text-[10px] md:text-xs text-muted-foreground leading-tight">
               IIT–NEET Foundation School
             </p>
-          </div>
+          </div>*/}
         </Link>
 
         {/* Desktop Nav */}
